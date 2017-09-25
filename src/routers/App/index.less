@@ -1,0 +1,35 @@
+@import '~antd/dist/antd.css';
+/*
+* CSS reset
+*/
+@import './reset.css';
+/*
+* 全局字号颜色定义
+*/
+@import "./base.less";
+/*
+* 提示的三角符号CSS代码
+*/
+.border(@radius, @color) {
+    border-left: @radius solid transparent;
+    border-right: @radius solid transparent;
+    border-bottom: @radius*2 solid @color;
+}
+body {
+    background: @bg-gray;
+}
+.header{
+  padding:10px;
+  label{
+    font-size: @font-size-lgest;
+  }
+  input,button{
+    display: inline-block;
+  }
+}
+.navigation{
+  div{
+    text-align: center;
+    font-size: @font-size-lg;
+  }
+}
