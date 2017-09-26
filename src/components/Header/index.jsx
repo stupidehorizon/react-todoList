@@ -15,7 +15,7 @@ class Header extends Component {
             this.setState({ hidden: false });
             this.setState({ hint: '请输入20字以内' });
         } else if (text !== '') {
-            this.props.addTodos(text);
+            this.props.addTodo(text);
             this.setState({ hidden: true });
         } else {
             this.setState({ hint: '请输入内容' });

@@ -27,7 +27,7 @@ class App extends Component {
     });
     return (
       <div>
-        <Header addTodos={addTodo} />
+        <Header addTodo={addTodos} />
         <Navigation
           allNum={allNum}
           todoNum={todoNum}
